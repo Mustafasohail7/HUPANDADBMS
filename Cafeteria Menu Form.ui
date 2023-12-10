@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>437</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Choose Cafeteria</string>
+    </property>
+    <widget class="QRadioButton" name="TapalCafeteria">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tapal (Lower Ground)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Cafe2Go">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>30</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cafe2Go (Ground Floor)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="Menu">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>381</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Item Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cafeteria</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Price (Rs.)</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="GoToCart">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>490</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Go to Cart</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SelectCafeteria">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>110</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Select Cafeteria</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MyOrders">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>My Orders</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ViewItem">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>490</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>View Item Details</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>437</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
